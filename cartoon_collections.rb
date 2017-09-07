@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet (planeteers)
   planeteers.map do |name|
-    name += "#{name}!"
+    "#{name.upcase}!"
   end
 end
 
